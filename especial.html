@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/pokeball.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/especial.css">
+
+
+    <title>Pokémon - Chessman Edition</title>
+</head>
+
+<body>
+    <main>
+        
+        <div class="back"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="worldMap.html">Mapa Mundial</a>
+            <a href="detonado.html">Detonado</a>
+            <a href="videos.html">Vídeos</a>
+            <a href="jogo.html">Download do Jogo</a>
+            <a href="especial.html">Especial</a>
+        </nav>
+
+        <div class="indexContainer">
+            <audio id="musica" lass="poketrap" controls autoplay loop>
+                <source src="src/music/PokemonTrapRemix.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="startAdventure">
+            <a title="Play!!!" class="btn btn-box" onclick="play()">
+                <div class="reflexo"></div>
+                <i class="icon icon-thumbs-up-1" ></i> Play!!!
+            </a>
+            <a title="Stop!!!" class="btn btn-box" onclick="stop()">
+                <div class="reflexo"></div>
+                <i class="icon icon-thumbs-up-1" ></i> Stop!!!
+            </a>
+        </div>
+    </main>
+
+    <script src="src/js/especial.js"></script>
+</body>
+
+</html>

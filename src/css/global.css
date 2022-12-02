@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/fireRed.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+picture img {
+    width: 400px;
+    display: flex;
+    right: 0;
+    left: 0;
+    margin: 10px auto;
+}
+
+.pokedex {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0px;
+}
+
+.textFormat {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 36px;
+    min-height: 61vh;
+    width: 88%;
+    background-color: #d2e586a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textFormatDetonado{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 36px;
+    min-height: 61vh;
+    width: 88%;
+    background-color: #d2e586a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.imdDownload {
+    border-radius: 26px;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.imdDownload:hover{
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15); 
+    -ms-transform:scale(1.15); 
+    -o-transform:scale(1.15); 
+     transform:scale(1.15);
+}
